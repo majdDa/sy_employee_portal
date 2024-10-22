@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-input__control input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: transparent !important;
+}
+
+
+/* app.css or your custom CSS file */
+.notyf {
+    margin-top: 40px; /* Adjust the top margin as needed */
+}
+
+.notyf .notyf-success {
+    background-color: #4caf50; /* Customize success background color */
+}
+
+.notyf .notyf-error {
+    background-color: #f44336; /* Customize error background color */
+}
